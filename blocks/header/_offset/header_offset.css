@@ -1,0 +1,5 @@
+@media all and (min-width: 1280px) {
+    .header_offset {
+        margin: 28px 48px 0 48px;
+    }
+}
