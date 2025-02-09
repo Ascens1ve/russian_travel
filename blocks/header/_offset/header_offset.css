@@ -1,5 +1,17 @@
-@media all and (min-width: 1280px) {
+@media all and (min-width: 1024px) {
     .header_offset {
         margin: 28px 48px 0 48px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .header_offset {
+        margin: 28px 24px 0 24px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .header_offset {
+        margin: 16px 16px 0 16px;
     }
 }

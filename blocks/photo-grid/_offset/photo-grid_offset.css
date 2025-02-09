@@ -1,0 +1,17 @@
+@media all and (min-width: 1024px) {
+    .photo-grid_offset {
+        margin: 0 48px 92px 48px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .photo-grid_offset {
+        margin: 0 24px 88px 24px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .photo-grid_offset {
+        margin: 0 16px 64px 16px;
+    }
+}

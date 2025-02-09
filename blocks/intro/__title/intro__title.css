@@ -1,8 +1,20 @@
 .intro__title {
     margin: 0;
-    font-size: 3.375rem;
     font-weight: 900;
-    line-height: 3.625rem;
     color: #FFF;
     text-align: left;
+}
+
+@media all and (min-width: 768px) {
+    .intro__title {
+        font-size: 3.375rem;
+        line-height: 3.625rem;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .intro__title {
+        font-size: 2rem;
+        line-height: 2.1875rem;
+    }
 }

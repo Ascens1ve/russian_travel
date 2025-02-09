@@ -1,0 +1,14 @@
+.place__url {
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    letter-spacing: 0;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.place__url:hover {
+    opacity: 0.8;
+}
