@@ -1,0 +1,14 @@
+@media all and (min-width: 768px) {
+    .place__column {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .place__column {
+        display: flex;
+        flex-direction: column;
+    }
+}

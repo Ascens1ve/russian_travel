@@ -7,3 +7,11 @@
     color: #FFFFFF;
     max-width: 340px;
 }
+
+@media all and (max-width: 767px) {
+    .cover__subtitle {
+        font-size: 0.875rem;
+        line-height: 1rem;
+        max-width: 288px;
+    }
+}

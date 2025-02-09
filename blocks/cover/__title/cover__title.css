@@ -8,3 +8,11 @@
     text-decoration: none;
     max-width: 540px;
 }
+
+@media all and (max-width: 767px) {
+    .cover__title {
+        font-size: 2rem;
+        line-height: 2.1875rem;
+        max-width: 240px;
+    }
+}

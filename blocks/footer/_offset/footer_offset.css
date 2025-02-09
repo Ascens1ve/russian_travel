@@ -9,3 +9,9 @@
         margin: 88px 24px 24px 24px;
     }
 }
+
+@media all and (max-width: 767px) {
+    .footer_offset {
+        margin: 64px auto 24px 16px;
+    }
+}
